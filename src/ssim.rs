@@ -3,7 +3,7 @@ use crate::prelude::*;
 use crate::utils::{draw_window_to_image, Window};
 use rayon::prelude::*;
 
-const DEFAULT_WINDOW_SIZE: u32 = 8;
+const DEFAULT_WINDOW_SIZE: u32 = 4;
 const K1: f64 = 0.01;
 const K2: f64 = 0.03;
 const L: u8 = u8::MAX;
